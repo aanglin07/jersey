@@ -7,6 +7,7 @@ import { useState } from 'react';
 const Newnav = () =>{
 const [menuOpen, setMenuOpen] = useState(false)
   return(
+    
     <nav>
       <div className = 'navMenu' onClick = {() => {
         setMenuOpen(!menuOpen)

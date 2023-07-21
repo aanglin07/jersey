@@ -13,9 +13,7 @@ return(
       <li><NavLink>Login</NavLink></li> |
       <li><NavLink>Register</NavLink></li>
       </div>
-      </ul>
-
-      
+      </ul>    
       
     
     </header>
