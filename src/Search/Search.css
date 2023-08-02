@@ -1,0 +1,19 @@
+.searchStyle {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  z-index: 999;
+  margin-left: 20rem;
+  
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}

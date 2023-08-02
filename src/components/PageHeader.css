@@ -47,14 +47,14 @@ ul li a{
 
 
 .page_header{
-  display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height:4rem;
     position:fixed;
     width:100%;
-  position:sticky;
+    position:sticky;
 }
 
 @media screen and (max-width: 760px){
