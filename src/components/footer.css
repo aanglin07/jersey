@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height:4rem;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    left:0px;
+      
+}
+.section_padding{
+  padding: 4rem 4rem;
+}
+
+.socialMedia img{
+    width: 45px;
+    height: 45px;
+    
+}
+.socialMedia{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding-top:2rem;
+  padding-right:1rem;
+  padding-bottom:25px;
+}
+.footer_copyright{
+  color:grey;
+  padding-left:1rem;
+}
+@media screen and (max-width:730px) {
+
+  .footer{
+    flex-direction:column-reverse;
+    height:4rem;
+    height:100px;
+      
+    }
+  .footer_copyright{
+    height: 4rem;
+    line-height:1px;
+    }
+  .socialMedia{
+  line-height:0.5rem;
+  padding-bottom:0px;
+  
+  }
+}
