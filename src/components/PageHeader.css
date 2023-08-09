@@ -6,6 +6,8 @@ h1{
     margin-left: 5px;
    }
 
+
+
 .regLog_format{
     display: flex;
     justify-content: flex-end;
@@ -57,7 +59,7 @@ ul li a{
     position:sticky;
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 790px){
   h1{
         margin-left: 200px;
         font-size: 40px;
@@ -80,7 +82,6 @@ ul li a{
 @media screen and (max-width: 700px){
   h1{
         margin-left: 200px;
-        font-size: 25px;
         padding-right: 30px;
   }
 

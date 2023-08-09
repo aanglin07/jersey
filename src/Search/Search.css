@@ -17,3 +17,9 @@ input {
   position: relative;
   width: 14rem;
 }
+
+@media screen and (max-width: 1280px){
+  .searchStyle{
+    margin-left: 15rem;
+  }
+}

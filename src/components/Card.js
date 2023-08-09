@@ -10,8 +10,10 @@ const Card = ({ img, teamName, star, teamKit, Year }) => {
           <section className="star-rating">
             {star} {star} {star} {star}           
           </section>
-          <section>
-          <h5 className="card-title">{teamName} || {teamKit} || {Year}</h5> 
+          <section className="card-title">          
+          <h5 >{teamName}</h5> 
+          <div>{teamKit}</div>
+          {Year}
           </section>
           
             <div className="bag">

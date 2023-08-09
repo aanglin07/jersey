@@ -17,10 +17,10 @@ const [menuOpen, setMenuOpen] = useState(false)
       <span></span>
       </div>
         <ul className = {menuOpen ? "open" : ""}>
-          <li><NavLink>Home</NavLink></li>
-          <li><NavLink>About Us</NavLink></li>
-          <li><NavLink>Reviews</NavLink></li>
-          <li><NavLink>Contact Us</NavLink></li>      
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to= "/about">About Us</NavLink></li>
+          <li><NavLink to="/review">Reviews</NavLink></li>
+          <li><NavLink to="/contact">Contact Us</NavLink></li>      
         </ul>
       
     </nav>
