@@ -1,6 +1,6 @@
 
 import './App.css';
-import Footer from "./Footer"
+import PageFooter from "./Footer"
 import Header from './PageHeader';
 import Newnav from "./Nav"
 import { Route, Routes } from 'react-router-dom';
@@ -13,7 +13,7 @@ import { Home } from './pages/Home';
 
 function App() { 
   return (
-    <main>
+    
       <div>      
         <Header />
         <Newnav />
@@ -23,9 +23,9 @@ function App() {
           <Route path='/review' element = {<Review />} />
           <Route path='/' element = {<Home />} />
         </Routes>     
-        <Footer />     
+        <PageFooter />     
       </div>
-    </main>
+  
   )
 }
 

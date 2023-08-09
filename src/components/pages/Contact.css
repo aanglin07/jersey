@@ -1,15 +1,14 @@
 .form--layout{
     display: flex;
     justify-content:center;
-    /* align-items: center; */
     flex-direction: column;
     margin-left: 2rem;
+    min-height: 100vh;
+    padding-bottom: 10rem;
     
 }
 
-.form--layout input{
-    padding: 5px;
-}
+
 .--btn {
     font-size: 1.6rem;
     font-weight: 400;

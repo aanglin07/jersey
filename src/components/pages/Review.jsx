@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Review = () => {
   return (
-    <div></div>
+    <div style = {{height:"100vh"}}></div>
   )
 }

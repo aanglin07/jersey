@@ -2,7 +2,7 @@
 
 export const About = () => {
   return (
-    <div>
+    <div style = {{height:"100vh"}}>
         
     </div>
   )
