@@ -1,9 +1,12 @@
 import { BsFillBagFill } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
-const Card = ({ img, teamName, star, teamKit, Year }) => {
+
+const Card = ({id, img, teamName, star, teamKit, Year }) => {
   return (
     <>
       <section className="card">
+        
         <img src={img} alt={teamName} className="card-img" />
         <div className="card-details">
           
@@ -14,6 +17,9 @@ const Card = ({ img, teamName, star, teamKit, Year }) => {
           <h5 >{teamName}</h5> 
           <div>{teamKit}</div>
           {Year}
+          
+          <NavLink to="/details">View</NavLink>
+          <span style = {{display:"none"}}>{id}</span>
           </section>
           
             <div className="bag">
@@ -27,3 +33,4 @@ const Card = ({ img, teamName, star, teamKit, Year }) => {
 };
 
 export default Card;
+

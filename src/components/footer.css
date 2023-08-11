@@ -36,6 +36,7 @@ footer{
   .footer_copyright{
     height: 4rem;
     line-height:1px;
+    padding-top: 2rem;
     }
   .socialMedia{
   line-height:0.5rem;

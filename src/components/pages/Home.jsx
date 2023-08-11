@@ -46,15 +46,17 @@ export const Home = () => {
     }
 
     return filteredProducts.map(
-      ({ img, teamName, star, teamKit, Year }) => (
+      ({id, img, teamName, star, teamKit, Year }) => (
         <Card
           key={Math.random()}
+          id = {id}
           img={img}
           teamName={teamName}
           star={star}
           teamKit={teamKit}
-          Year={Year}
+          Year={Year}        
         />
+          
       )
     );
   }
@@ -68,3 +70,5 @@ export const Home = () => {
     </div>
   )
 }
+
+

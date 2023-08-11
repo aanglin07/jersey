@@ -31,3 +31,20 @@
     font-size: 1rem;
     font-weight: 400;
   }
+
+  @media screen and (max-width: 590px){
+    .form--layout{
+     align-items: center;
+     padding-bottom: 15rem;
+     
+    }
+    
+  }
+  @media screen and (max-width: 780px){
+    .form--layout{
+     align-items: center;
+     padding-bottom: 15rem;
+     
+    }
+    
+  }

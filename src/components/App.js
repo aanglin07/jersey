@@ -8,6 +8,10 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Review } from './pages/Review';
 import { Home } from './pages/Home';
+import ProductDetails  from './pages/ProductDetails';
+
+
+
 
 
 
@@ -22,6 +26,7 @@ function App() {
           <Route path='/contact' element = {<Contact />} />
           <Route path='/review' element = {<Review />} />
           <Route path='/' element = {<Home />} />
+          <Route path='/details' element = {<ProductDetails />} />
         </Routes>     
         <PageFooter />     
       </div>

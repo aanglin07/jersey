@@ -9,6 +9,7 @@ nav{
   line-height: 1;
   position:sticky;
   margin-top: 30px;
+  position:relative !important;z-index:999
 }
 
 nav ul{
@@ -93,6 +94,7 @@ nav .navMenu span{
     height:200px;
     padding-top:10px;
     border-radius:0.5rem;
+    /* position:relative !important;z-index:999 */
     
   
   }
