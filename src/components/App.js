@@ -15,6 +15,7 @@ import ProductDetails  from './pages/ProductDetails';
 
 
 
+
 function App() { 
   return (
     
@@ -26,7 +27,7 @@ function App() {
           <Route path='/contact' element = {<Contact />} />
           <Route path='/review' element = {<Review />} />
           <Route path='/' element = {<Home />} />
-          <Route path='/details' element = {<ProductDetails />} />
+          <Route path='/details/:id' element = {<ProductDetails />} />
         </Routes>     
         <PageFooter />     
       </div>

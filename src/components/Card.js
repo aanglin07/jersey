@@ -1,5 +1,6 @@
 import { BsFillBagFill } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+// import products from "../db/data";
 
 
 const Card = ({id, img, teamName, star, teamKit, Year }) => {
@@ -18,7 +19,7 @@ const Card = ({id, img, teamName, star, teamKit, Year }) => {
           <div>{teamKit}</div>
           {Year}
           
-          <NavLink to="/details">View</NavLink>
+          <NavLink to={`/details/${id}`}>View</NavLink>
           <span style = {{display:"none"}}>{id}</span>
           </section>
           
