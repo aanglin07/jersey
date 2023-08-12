@@ -1,0 +1,40 @@
+.searchStyle {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  margin-left: 20rem;
+  z-index: -1;
+  
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+
+@media screen and (max-width: 1280px){
+  .searchStyle{
+    margin-left: 15rem;
+  }
+}
+@media screen and (max-width: 780px){
+  .searchStyle{
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 700px){
+  .searchStyle{
+    margin-left: 15rem;
+  }
+}
+@media screen and (max-width: 660px){
+  .searchStyle{
+    margin-left: 12rem;
+  }
+}
