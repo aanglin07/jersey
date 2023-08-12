@@ -3,7 +3,7 @@ import Search from "../Search/Search";
 import Products from "../Products/Products"
 import products from "./../../db/data"
 import Sidebar from "./../../Sidebar/Sidebar"
-import Card from "../Card"
+import Card from "../Main/Card"
 
 
 export const Home = () => {

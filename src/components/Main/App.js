@@ -4,11 +4,11 @@ import PageFooter from "./Footer"
 import Header from './PageHeader';
 import Newnav from "./Nav"
 import { Route, Routes } from 'react-router-dom';
-import { About } from './pages/About';
-import { Contact } from './pages/Contact';
-import { Review } from './pages/Review';
-import { Home } from './pages/Home';
-import ProductDetails  from './pages/ProductDetails';
+import { About } from '../pages/About';
+import { Contact } from '../pages/Contact';
+import { Review } from '../pages/Review';
+import { Home } from '../pages/Home';
+import ProductDetails  from '../pages/ProductDetails';
 
 
 
