@@ -1,4 +1,4 @@
-import "./Product.css";
+import "./Card.css";
 
 const Products = ({ result }) => {
   return (
