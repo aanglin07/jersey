@@ -47,8 +47,7 @@ export const Home = () => {
 
     return filteredProducts.map(
       ({id, img, teamName, star, teamKit, Year }) => (
-        <Card
-          key={Math.random()}
+        <Card          
           id = {id}
           img={img}
           teamName={teamName}
